@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#Menu{
+    background-color:aqua;
+    height:50px;
+    
+}
+
+.menu-containe{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 10px;
+font-weight: 600;
+}
