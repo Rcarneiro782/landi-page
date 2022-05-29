@@ -6,16 +6,25 @@
 }
 
 
-#Menu{
-    background-color:aqua;
-    height:50px;
+#home{
+    background-color:#001781;
+    height:100px;
     
+
+}
+.menu-containe{
+    margin: auto;
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: 600;
+    background-color: aliceblue;
+    width: 700px;
+    }
+    
+.image{
+    width: 40px;
+    height: 40px;
 }
 
-.menu-containe{
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding-top: 10px;
-font-weight: 600;
-}
+
