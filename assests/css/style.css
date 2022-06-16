@@ -7,24 +7,98 @@
 
 
 #home{
-    background-color:#001781;
+    background:linear-gradient(to left, transparent 0%, #001781 );
     height:100px;
     
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
 
 }
 .menu-containe{
-    margin: auto;
-    display: inline-flex;
+    display: flex;
     justify-content:space-around;
     align-items: center;
     font-weight: 600;
     background-color: aliceblue;
-    width: 700px;
-    }
-    
+    width: 50%;
+    height: 70%;
+    border-radius: 10%;
+}
+
 .image{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.hover:hover, 
+.inicial-button:hover{
+    color: #FECB0D;
+    cursor: pointer;
+}
+#home-inicial{
+    background: linear-gradient(to top, transparent 0%, #FECB0D );
+    height: 70vw;
+}
+#about{
+    background-color: white;
+    height: 60vw;
+}
+.inicial-button{
+    color: aliceblue;
+    background-color: #001781;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 55%;
+}
+#home-inicial{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.home-inicial--left{
+    color: #FECB0D;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    background: linear-gradient(to top, transparent 0%, #001781);
+
+}
+.home-inicial--right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 50%;
+    height: 50%;
+    margin-top: 40px;
+}
+.home-inicial--right a{
+    text-decoration: none;
+    color: #001781;
+    text-align: center;
+}
+
+.home-inicial--right img{
+height: 500px;
+border-radius: 50%;
+cursor: pointer;
+
 }
 
 
